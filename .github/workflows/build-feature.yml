@@ -3,7 +3,6 @@ name: Build Feature
 on:
   push:
     branches:
-      - main
       - feature/*
   pull_request:
     branches:
