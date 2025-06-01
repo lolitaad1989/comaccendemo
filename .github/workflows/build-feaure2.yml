@@ -35,9 +35,4 @@ jobs:
         continue-on-error: true
 
         
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: build-artifacts
-          path: ./build # Adjust the path to your build output directory
-        continue-on-error: true
+
