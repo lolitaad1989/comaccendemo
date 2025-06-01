@@ -40,3 +40,4 @@ jobs:
         with:
           name: build-artifacts
           path: ./build # Adjust the path to your build output directory
+        continue-on-error: true
